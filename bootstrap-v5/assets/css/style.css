@@ -10766,6 +10766,11 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    display: none;
+  }
+}
 .btn-rounded span {
   position: absolute;
   background-color: #9926f0;
