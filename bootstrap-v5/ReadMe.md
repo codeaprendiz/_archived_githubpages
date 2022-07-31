@@ -49,3 +49,29 @@ touch theming-kit.html
   <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
 </svg>
 ```
+
+- Touch
+
+```bash
+$ touch scss/components/_buttons.scss   
+$ touch scss/components/_animations.scss
+$ touch scss/components/_mixins.scss  
+$ touch scss/components/_typography.scss  
+
+$ touch scss/sections/_navbar.scss
+$ touch scss/sections/_intro-section.scss
+$ touch scss/sections/_companies.scss   
+$ touch scss/sections/_services.scss 
+$ touch scss/sections/_testimonials.scss 
+$ touch scss/sections/_faq.scss    
+$ touch scss/sections/_portfolio.scss   
+$ touch scss/sections/_get-started.scss 
+$ touch scss/sections/_footer.scss      
+```
+
+
+- Create file
+
+```bash
+$ touch index.html
+```
