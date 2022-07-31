@@ -60,9 +60,6 @@ $ touch scss/components/_typography.scss
 
 $ touch scss/sections/_navbar.scss
 $ touch scss/sections/_intro-section.scss
-$ touch scss/sections/_companies.scss   
-$ touch scss/sections/_services.scss 
-$ touch scss/sections/_testimonials.scss 
 $ touch scss/sections/_faq.scss    
 $ touch scss/sections/_portfolio.scss   
 $ touch scss/sections/_get-started.scss 
