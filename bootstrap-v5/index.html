@@ -8,6 +8,10 @@
     <title>Portfolio Website with Bootstrap</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
@@ -53,19 +57,21 @@
 
 <section id="home" class="intro-section">
     <div class="container">
-        <div class="row align-item-center text-white">
-            <div class="col-md-6 intros"></div>
+        <div class="row align-items-center text-white">
+            <div class="col-md-6 intros text-start"></div>
                 <h1 class="display-2">
                     <span class="display-2--intro">Hey!, I'm Ankit</span>
-                    <span class="display-2--description">SRE | DevOps | Platform Engineer | 2X AWS | AWS Certified Solutions Architect Professional | CKA | CKAD</span>
-                </h1>            
-            <div class="col-md-6 intros"></div>
+                    <span class="display-2--description lh-base">
+                        SRE | DevOps | Platform Engineer | 2X AWS | AWS Certified Solutions Architect Professional | CKA | CKAD
+                    </span>
+                </h1>      
+                <button type="button" class="rounded-pill btn-rounded">Get in Touch
+                    <span>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </button>              
+            <div class="col-md-6 intros text-end"></div>
         </div>
-        <button type="button" class="rounded-pill btn-rounded">Get in Touch
-            <span>
-                <i class="fas fa-arrow-right"></i>
-            </span>
-        </button>    
     </div>
 </section>    
     <!-- You can also use CDN -->

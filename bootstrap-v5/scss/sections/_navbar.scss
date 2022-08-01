@@ -6,11 +6,10 @@
 
     li {
         padding: 0 0.7rem;
-
-        a {
-            color: $white !important;
-            text-transform: capitalize;
-            font-weight: 600;
-        }
+    }
+    a {
+        color: $white !important;
+        text-transform: capitalize;
+        font-weight: 600;
     }
 }
