@@ -465,6 +465,48 @@
                 </div>
               </div>
             </div>
+            <!-- ACCORDION ITEM 5 -->
+            <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Monitoring And Logging Setup Using ELK Stack
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>Monitoring and Logging Setup </strong> from scratch to set up dashboards
+                <ul>
+                <li><strong>ELK</strong> i.e. Elastic Search, Logstash and Kibana was used. All were set up on individual
+                    instances using <strong>docker-compose and ansible playbooks</strong></li>
+                <li><strong>Journalbeat</strong> was used to set up logging for kubernetes. <strong>Metricbeat</strong> was used for getting
+                    metrics of kubernetes, instances, mongodb, mysql and NATs.</li>
+                <li>Dashboards set up for <strong>Kubernetes, System, Host, MongoDB, MySQL, NATs, Docker
+                    monitoring.</strong> URL monitoring and Alerts on slacks using <strong>Prometheus, Alertmanager, BlackboxExporter.</strong></li>
+                <li>Prometheus, Alertmanager, Blackbox-exporter set up done using ansible, docker-compose</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <!-- ACCORDION ITEM 6 -->
+            <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Self Managed kubernetes infrastructure using opensource Typhoon
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <ul>
+                    <li>Created using<strong> AWS, Terraform and OpenSource poseidon/typhoon</strong> repository.</li>
+                    <li>Used <strong>reserved and spot</strong> Instances to save cost</li>
+                    <li>The cluster was <strong>self healing.</strong> Whenever spot instance was terminated, <strong>lamda function</strong> would
+                        trigger a webhook in <strong>Jenkins</strong> which would run <strong>ansible playbook task</strong> to drain the
+                        corresponding kubernetes cluster node.</li>
+                    </ul>
+                    </div>
+                </div>
+                </div>
+
           </div>
         </div>
       </div>
